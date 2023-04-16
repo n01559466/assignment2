@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>
+    first page
+        </title>
+
+        <link rel = "stylesheet" href = "firstpagestyle.css"> 
+    </head>
+    
+   
+    <body>
+        
+        
+        <br>
+        <br>
+        
+        <div class = "roomRental">
+        
+        <label for ="roomRental">Room Rental </label> 
+        <input type = "text" id = "roomRental" onchange="calculate()">
+        
+        </div>
+        
+           
+        
+        <div class = "food">
+        
+        <label for ="food">Food </label> 
+        <input type = "text" id = "food"  onchange="calculate()">
+        
+        </div>
+        
+           
+        
+        <div class = "ent">
+        
+        <label for ="ent"> Entertainment</label> 
+        <input type = "text" id = "ent"  onchange="calculate()" >
+        
+        </div>
+        
+           
+        
+        <div class = "total">
+        
+        <label for ="total"> Total </label> 
+        <input type = "text" id = "total" >
+        
+        </div>
+        
+           
+        
+        <div class = "tax">
+        
+        <label for ="tax"> With Tax </label> 
+        <input type = "text" id = "tax">
+        
+        </div>
+        
+        
+        <script>
+            
+            function calculate()  {
+            
+            var room = document.getElementById("roomRental").value;
+            var food = document.getElementById("food").value;
+            var ent = document.getElementById("ent").value;
+            var total = +room + +food + +ent; 
+            document.getElementById("total").value = total;
+            var tax = total + (total * 0.14); 
+            document.getElementById("tax").value = tax;
+            
+            }
+        
+            
+            
+            
+            
+        </script>
+        
+        
+        </div>
+    </body>
+    
+</html>
