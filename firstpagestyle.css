@@ -1,0 +1,56 @@
+        
+.roomRental input {
+    
+    width:50px;
+    margin-left:20px;
+}
+
+.roomRental {
+    text-align:center;
+}
+    
+.food input {
+    
+    width:50px;
+    margin-left:72px;
+    
+}
+
+.food {
+    text-align:center;
+}
+    
+.ent input {
+    
+    width:50px;
+    margin-left:14.5px;
+    
+}
+
+.ent {
+    text-align:center;
+}
+    
+.total input {
+    
+    width:50px;
+    margin-left:72.5px;
+    
+}
+
+.total {
+    text-align:center;
+}
+    
+.tax input {
+    
+    width:50px;
+    margin-left:46px;
+    
+}
+
+.tax {
+    text-align:center;
+}
+
+
