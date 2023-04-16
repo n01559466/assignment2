@@ -8,25 +8,30 @@
     <body>  
         <br>
         <br>
+
         <div class = "roomRental">
-        <label for ="roomRental">Room Rental </label> 
-        <input type = "text" id = "roomRental" onchange="calculate()">
+            <label for ="roomRental">Room Rental </label> 
+            <input type = "text" id = "roomRental" onchange="calculate()">
         </div>
+
         <div class = "food">
-        <label for ="food">Food </label> 
-        <input type = "text" id = "food"  onchange="calculate()">
+            <label for ="food">Food </label> 
+            <input type = "text" id = "food"  onchange="calculate()">
         </div>
+
         <div class = "ent">
-        <label for ="ent"> Entertainment</label> 
-        <input type = "text" id = "ent"  onchange="calculate()" >
+            <label for ="ent"> Entertainment</label> 
+            <input type = "text" id = "ent"  onchange="calculate()" >
         </div>
+
         <div class = "total">
-        <label for ="total"> Total </label> 
-        <input type = "text" id = "total" >
+            <label for ="total"> Total </label> 
+            <input type = "text" id = "total" >
         </div>
+        
         <div class = "tax">
-        <label for ="tax"> With Tax </label> 
-        <input type = "text" id = "tax">
+            <label for ="tax"> With Tax </label> 
+            <input type = "text" id = "tax">
         </div>
         
         <script>
