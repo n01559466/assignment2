@@ -4,48 +4,32 @@
         second page 
         </title>
         <link rel = "stylesheet" href = "secondpagestyle.css"> 
-
     </head>
-    
 <body>    
-    
     <p> Country:</p>
         <p> CANADA </p>
-            <p> Capital:</p>
-            
+            <p> Capital:</p> 
             <div id="OTTAWA">OTTAWA</div>
-            
             <br>
-            
             <button onclick ="hide()"> Hide capital name </button>
             <button onclick ="show()"> Show capital name </button>
-            <button onclick ="toggle()"> Toggle </button>
-            
-            <br>
-            
+            <button onclick ="toggle()"> Toggle </button> 
+            <br> 
             <p class = "hover"  onmouseover="changecolour()" 
-            onmouseout="changecolouragain()" > Hover on this paragraph for Yellow</p>
-            
-              <p class = "click" onclick="changebackground()"
-              > Click on this paragraph for green example</p>
-              
-              
-              <script>
-                  
-                  
-                  function hide() {
+            onmouseout="changecolouragain()" > Hover on this paragraph for Yellow</p> 
+              <p class = "click" onclick="changebackground()"> Click on this paragraph for green example</p>
 
-   document.getElementById("OTTAWA").style.display="none"
-}
-                   
-                  
+               <script>
+                  function hide() {
+                    document.getElementById("OTTAWA").style.display="none"
+                }
                    function show() {
-    document.getElementById("OTTAWA").style.display="block"
+                    document.getElementById("OTTAWA").style.display="block"
                   }
                      function toggle() {
-            var toggle = document.getElementById("OTTAWA")
-            if (toggle.style.display == "none") { 
-            toggle.style.display = "block"
+                    var toggle = document.getElementById("OTTAWA")
+                    if (toggle.style.display == "none") { 
+                    toggle.style.display = "block"
             
                      }else{
                          toggle.style.display = "none"; 
@@ -53,30 +37,15 @@
 
                      }
                      
-                  
                   function changecolour() {
-                  
                   document.body.style.backgroundColor="yellow"
-                  
                   }
-                  
-                   
                   function changecolouragain() {
-                  
                   document.body.style.backgroundColor="black"
-                  
                   }
-                  
-                   
                   function changebackground() { 
-                  
                   document.body.style.backgroundColor="Green"
-                  
                   }
-                  
-                  
-                  
-                  
               </script>
               </body>
               </html> 
